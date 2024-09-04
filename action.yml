@@ -1,0 +1,17 @@
+name: "Podcast Generator"
+author: "Yasith Rashan"
+description: " Genarates a feed for podcast from a YAML file"
+runs:
+  using: "docor"
+  image: "Dockerfile"
+branding:
+  icon: "git-brach"
+  color: "red"
+inputs:
+  email: 
+    description: The commiter's email address
+    required: true
+    default: ${{github.actor }}@localhost
+  name:
+    required:true
+    default:${{github.actor }}
