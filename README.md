@@ -15,7 +15,7 @@ A Docker-based tool that generates a podcast RSS feed (`podcast.xml`) from a str
 - Docker
 - XML (ElementTree)
 
-## 🚀 How to Use
+## How to Use
 
 1. **Prepare** a `feed.yaml` file with your podcast metadata.
 2. **Build the Docker image**:
